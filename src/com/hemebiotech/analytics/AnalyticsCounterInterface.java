@@ -29,4 +29,15 @@ public interface AnalyticsCounterInterface{
 	public Map<String, Integer> mapSorting(Map<String, Integer> map);
 	
 
+	/**
+	 * generateResultFile() as indicate name of the method it's generate the new
+	 * result file "result.out" verify if the file exist, if the doesn't exist
+	 * create a new one if it's exist, write inside the file
+	 * 
+	 * @param the sorted map 
+	 */
+
+	public void generateResultFile(Map<String, Integer> sortedMap);
+	
+
 }
