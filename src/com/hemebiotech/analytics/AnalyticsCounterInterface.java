@@ -31,8 +31,9 @@ public interface AnalyticsCounterInterface{
 
 	/**
 	 * generateResultFile() as indicate name of the method it's generate the new
-	 * result file "result.out" verify if the file exist, if the doesn't exist
-	 * create a new one if it's exist, write inside the file
+	 * result file "result.out" 
+	 * if it's exist, write inside the file
+	 * if not create a new file 
 	 * 
 	 * @param the sorted map 
 	 */
