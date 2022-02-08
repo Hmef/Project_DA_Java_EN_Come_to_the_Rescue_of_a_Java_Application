@@ -20,4 +20,13 @@ public interface AnalyticsCounterInterface{
 	
 	
 
+	/**
+	 * mapSorting() is sorting the key of the map using TreeMap
+	 * @param is the map that contain symptoms as key and the numbers of occurrence as a value of this key
+	 * @return the sorted  map 
+	 */
+
+	public Map<String, Integer> mapSorting(Map<String, Integer> map);
+	
+
 }

@@ -42,4 +42,20 @@ public class AnalyticsCounter implements AnalyticsCounterInterface{
 	}
 	
 	
+	/**
+	 * mapSorting() is sorting the key of the map using TreeMap
+	 * @param is the map that contain symptoms as key and the numbers of occurrence as a value of this key
+	 * @return the sorted  map 
+	 */
+
+	@Override
+	public Map<String, Integer> mapSorting(Map<String, Integer> map) {
+
+		Map<String, Integer> sortedMap = new TreeMap<String, Integer>(map);
+		
+		return sortedMap;
+
+	}
+	
+	
 }
