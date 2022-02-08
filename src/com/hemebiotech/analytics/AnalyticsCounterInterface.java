@@ -17,5 +17,7 @@ public interface AnalyticsCounterInterface{
 	 */
 
 	public Map<String, Integer> calculNbrOccur(List<String> symptomfromlist);
+	
+	
 
 }
